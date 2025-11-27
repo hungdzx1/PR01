@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img-main{
+    height: 300px;
+    width: 300px;
+    border: 3px solid;
+    margin: auto;
+    background-color: #CCEECC;
+    text-align: center;
+    align-content: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-main > p{
+    color: blueviolet;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.imgs{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.imgs > img{
+    width: 200px;
+    padding: 0 25px;
+}
+
+.imgs > img:hover{
+    cursor: pointer;
+}
