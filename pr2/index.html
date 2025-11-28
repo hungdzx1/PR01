@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">            
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body onload="focusImg()">
+    <div class="img-main">
+        <p class="title">hover over an image below</p>
+    </div>
+
+    <div class="imgs">
+        <img onmouseover="check(this.src, this.alt)" onmouseout="rsImg()" onfocus="check(this.src, this.alt)" onblur="rsImg()" src="./01.jpg" alt="White dog">
+        <img onmouseover="check(this.src, this.alt)" onmouseout="rsImg()" onfocus="check(this.src, this.alt)" onblur="rsImg()" src="./02.jpg" alt="Black dog">
+        <img onmouseover="check(this.src, this.alt)" onmouseout="rsImg()" onfocus="check(this.src, this.alt)" onblur="rsImg()" src="./03.webp" alt="orCat">
+        <img onmouseover="check(this.src, this.alt)" onmouseout="rsImg()" onfocus="check(this.src, this.alt)" onblur="rsImg()" src="./04.jfif" alt="dog and cat">
+        <img onmouseover="check(this.src, this.alt)" onmouseout="rsImg()" onfocus="check(this.src, this.alt)" onblur="rsImg()" src="./05.jfif" alt="three cats">
+        <img onmouseover="check(this.src, this.alt)" onmouseout="rsImg()" onfocus="check(this.src, this.alt)" onblur="rsImg()" src="./06.webp" alt="cat play">
+    </div>
+
+   <script src="./csr.js"></script>
+</body>
+ 
+</html>
